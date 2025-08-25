@@ -3,10 +3,10 @@ services:
     build:
       context: . # где находится Dockerfile
       dockerfile: Dockerfile # Явно указываем Dockerfile
-    image: bot_1777:v1
-    container_name: bot_1777
+    image: bot_test1:v1
+    container_name: bot_test1
     environment:
       - PYTHONUNBUFFERED=1 # Для отображения логов в реальном времени
     volumes:
-      - /proj/bot_1777:/proj/bot_1777
+      - /proj2/bot_test1:/proj2/bot_test1 # Монтируем текущую директорию в контейнер
     restart: unless-stopped

@@ -2,7 +2,7 @@
 FROM python:3.12-slim
 
 # рабочая директория
-WORKDIR /proj/bot_1777
+WORKDIR /proj2/bot_test1
 
 COPY requirements.txt ./
 
