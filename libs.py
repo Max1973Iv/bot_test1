@@ -63,7 +63,7 @@ async def answer(system,            # системный промпт
                           user_query,        # запрос пользователя
 #                          db_index,          # индексная база знаний из текстов
 #                          k=3,               # количество подтягиваемых чанков из базы
-                          model='gpt-4o-mini')
+                          model='gpt-4o-mini'):
 #                          temp=0.1):
 #    docs = db_index.similarity_search(user_query, k=k)
 #    message_content = re.sub(r'\n{2}', ' ', '\n '.join(
