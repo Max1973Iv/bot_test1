@@ -3,7 +3,7 @@ from aiogram import Bot, Router, F
 from aiogram.filters import Command
 from aiogram.types import InlineKeyboardMarkup
 from aiogram.types import InlineKeyboardButton as IKB
-from libs import answer_db_index, create_db_index, load_db_index
+from libs import answer
 import logging
 import os
 from dotenv import load_dotenv
@@ -73,9 +73,10 @@ async def handle_dialog(message: Message):
     history = f"{dict_memory.get(f'{message.from_user.id}', '')}"
 
     # Запрос к OpenAI
-    response = await answer_db_index(
-        'Ответь подробно на основании информации которая у тебя есть в стихах',
-        f"История переписки: \n{history} \n\nЗапрос: \n{message.text}", db_index)
+    response = await answer(
+        '''Ответь подробно на основании информации которая тебе известна. Пиши четко и понятно, но в стихотворной форме в стиле Пушкина.
+        Отвечай только на вопросы про животных. На вопросы не по теме отвечай стихами в японском стиле хайку.''',
+        f"История переписки: \n{history} \n\nЗапрос: \n{message.text}")
 
     await message.answer(response)
     await message.answer("Задайте уточняющий вопрос или очистите память перед следующим запросом",
