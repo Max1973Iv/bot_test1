@@ -11,10 +11,10 @@ load_dotenv()
 
 
 # Если векторная база еще не создана:
-if not os.path.exists('db_index.faiss'):
-    create_db_index(os.getenv("DATA_DOC_URL"))
-    logging.info(f"create_db_index() - OK")
-db_index = load_db_index('db_index')
+#if not os.path.exists('db_index.faiss'):
+#    create_db_index(os.getenv("DATA_DOC_URL"))
+#    logging.info(f"create_db_index() - OK")
+#db_index = load_db_index('db_index')
 
 router = Router()
 dict_memory = dict()  # Словарь для сохранения истории переписки
