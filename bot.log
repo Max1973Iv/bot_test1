@@ -45,3 +45,30 @@
 2025-08-26 20:33:45,809 - INFO - Polling stopped for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
 2025-08-26 20:33:45,810 - INFO - Polling stopped
 2025-08-26 20:33:46,061 - INFO - Остановка бота...
+2025-08-26 21:37:48,182 - INFO - Запуск бота...
+2025-08-26 21:37:48,440 - INFO - Start polling
+2025-08-26 21:37:48,524 - INFO - Run polling for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
+2025-08-26 21:37:48,671 - INFO - Очистка истории переписки (5659195074) 
+2025-08-26 21:37:48,673 - INFO - Очистка истории переписки (5659195074) 
+2025-08-26 21:37:48,946 - INFO - Update id=451551477 is handled. Duration 274 ms by bot id=8066599906
+2025-08-26 21:37:48,946 - INFO - Update id=451551478 is handled. Duration 273 ms by bot id=8066599906
+2025-08-26 21:38:02,383 - INFO - handle_dialog() - Запрос от 5659195074: Кто такой енот
+2025-08-26 21:38:05,629 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 21:38:06,236 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-26 21:38:06,236 - INFO - Update id=451551479 is handled. Duration 3854 ms by bot id=8066599906
+2025-08-26 21:38:29,422 - INFO - handle_dialog() - Запрос от 5659195074: Что такое индустриализация
+2025-08-26 21:38:32,172 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 21:38:32,541 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-26 21:38:32,542 - INFO - Update id=451551480 is handled. Duration 3121 ms by bot id=8066599906
+2025-08-26 21:38:53,633 - INFO - Очистка истории переписки (5659195074) 
+2025-08-26 21:38:53,886 - INFO - Update id=451551481 is handled. Duration 253 ms by bot id=8066599906
+2025-08-26 21:38:56,848 - INFO - Очистка истории переписки (5659195074) 
+2025-08-26 21:38:56,954 - INFO - Update id=451551482 is handled. Duration 106 ms by bot id=8066599906
+2025-08-26 21:39:12,517 - INFO - handle_dialog() - Запрос от 5659195074: Сколько лап у паука
+2025-08-26 21:39:14,486 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 21:39:14,861 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-26 21:39:14,861 - INFO - Update id=451551483 is handled. Duration 2345 ms by bot id=8066599906
+2025-08-26 21:40:00,154 - INFO - handle_dialog() - Запрос от 5659195074: Какое расстояние между солнцем и луной
+2025-08-26 21:40:03,239 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 21:40:03,621 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-26 21:40:03,622 - INFO - Update id=451551484 is handled. Duration 3469 ms by bot id=8066599906
