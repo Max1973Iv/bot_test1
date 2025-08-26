@@ -59,7 +59,7 @@ async def set_menu_button(bot: Bot):
 @router.message(Command('start'))
 async def cmd_start(message: Message):
     await clear_memory(message.from_user.id)
-    await message.answer("Задайте вопрос по ТЕХНИЧЕСКОМУ РЕГЛАМЕНТУ ТАМОЖЕННОГО СОЮЗА 'О БЕЗОПАСНОСТИ ЖЕЛЕЗНОДОРОЖНОГО ПОДВИЖНОГО СОСТАВА'")
+    await message.answer("Задайте вопрос")
 
 
 # Обработка текстового сообщения от пользователя
@@ -74,7 +74,7 @@ async def handle_dialog(message: Message):
 
     # Запрос к OpenAI
     response = await answer_db_index(
-        'Ответь подробно на основании информации из базы знаний. Не придумывай ничего от себя',
+        'Ответь подробно на основании информации которая у тебя есть в стихах',
         f"История переписки: \n{history} \n\nЗапрос: \n{message.text}", db_index)
 
     await message.answer(response)

@@ -1,0 +1,47 @@
+2025-08-26 20:27:18,360 - INFO - Запуск бота...
+2025-08-26 20:27:18,613 - INFO - Start polling
+2025-08-26 20:27:18,693 - INFO - Run polling for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
+2025-08-26 20:27:18,800 - INFO - handle_dialog() - Запрос от 5659195074: /model
+2025-08-26 20:27:29,381 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-26 20:27:42,679 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 20:27:43,157 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-26 20:27:43,157 - INFO - Update id=451551466 is handled. Duration 24357 ms by bot id=8066599906
+2025-08-26 20:28:01,946 - INFO - Очистка истории переписки (5659195074) 
+2025-08-26 20:28:02,204 - INFO - Update id=451551467 is handled. Duration 258 ms by bot id=8066599906
+2025-08-26 20:28:12,128 - INFO - Очистка истории переписки (5659195074) 
+2025-08-26 20:28:12,230 - INFO - Update id=451551468 is handled. Duration 102 ms by bot id=8066599906
+2025-08-26 20:28:24,376 - INFO - handle_dialog() - Запрос от 5659195074: Кто такой енот
+2025-08-26 20:28:25,267 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-26 20:28:28,659 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 20:28:29,048 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-26 20:28:29,048 - INFO - Update id=451551469 is handled. Duration 4673 ms by bot id=8066599906
+2025-08-26 20:28:50,627 - INFO - handle_dialog() - Запрос от 5659195074: Какое научное название енота
+2025-08-26 20:28:51,690 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-26 20:28:54,995 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 20:28:55,424 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-26 20:28:55,425 - INFO - Update id=451551470 is handled. Duration 4799 ms by bot id=8066599906
+2025-08-26 20:29:21,601 - INFO - Очистка истории переписки (5659195074) 
+2025-08-26 20:29:21,877 - INFO - Update id=451551471 is handled. Duration 276 ms by bot id=8066599906
+2025-08-26 20:29:33,243 - INFO - handle_dialog() - Запрос от 5659195074: Который час
+2025-08-26 20:29:34,049 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-26 20:29:36,052 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 20:29:36,290 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-26 20:29:36,290 - INFO - Update id=451551472 is handled. Duration 3047 ms by bot id=8066599906
+2025-08-26 20:30:36,043 - INFO - handle_dialog() - Запрос от 5659195074: /stop
+2025-08-26 20:30:37,316 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-26 20:30:46,217 - INFO - Очистка истории переписки (5659195074) 
+2025-08-26 20:30:46,489 - INFO - Update id=451551474 is handled. Duration 272 ms by bot id=8066599906
+2025-08-26 20:30:50,005 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 20:30:50,304 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-26 20:30:50,304 - INFO - Update id=451551473 is handled. Duration 14262 ms by bot id=8066599906
+2025-08-26 20:31:24,603 - INFO - handle_dialog() - Запрос от 5659195074: Как остановить контейнер
+2025-08-26 20:31:26,594 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-26 20:31:36,773 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 20:31:37,358 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-26 20:31:37,358 - INFO - Update id=451551475 is handled. Duration 12756 ms by bot id=8066599906
+2025-08-26 20:31:50,307 - INFO - Очистка истории переписки (5659195074) 
+2025-08-26 20:31:50,425 - INFO - Update id=451551476 is handled. Duration 119 ms by bot id=8066599906
+2025-08-26 20:33:45,807 - WARNING - Received SIGTERM signal
+2025-08-26 20:33:45,809 - INFO - Polling stopped for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
+2025-08-26 20:33:45,810 - INFO - Polling stopped
+2025-08-26 20:33:46,061 - INFO - Остановка бота...
