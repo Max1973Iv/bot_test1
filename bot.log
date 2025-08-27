@@ -72,3 +72,55 @@
 2025-08-26 21:40:03,239 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-08-26 21:40:03,621 - INFO - handle_dialog - Ответ: 5659195074 отправлен
 2025-08-26 21:40:03,622 - INFO - Update id=451551484 is handled. Duration 3469 ms by bot id=8066599906
+2025-08-26 21:42:44,375 - INFO - handle_dialog() - Запрос от 5659195074: Сколько ест медведь
+2025-08-26 21:42:47,745 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 21:42:48,268 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-26 21:42:48,268 - INFO - Update id=451551485 is handled. Duration 3895 ms by bot id=8066599906
+2025-08-26 21:43:27,952 - INFO - handle_dialog() - Запрос от 5659195074: Что такое декоратор
+2025-08-26 21:43:29,782 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-26 21:43:30,164 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-26 21:43:30,164 - INFO - Update id=451551486 is handled. Duration 2213 ms by bot id=8066599906
+2025-08-27 04:37:17,781 - INFO - Очистка истории переписки (5659195074) 
+2025-08-27 04:37:18,074 - INFO - Update id=451551487 is handled. Duration 293 ms by bot id=8066599906
+2025-08-27 04:37:30,789 - INFO - handle_dialog() - Запрос от 5659195074: Кто такая жужелица
+2025-08-27 04:37:34,262 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 04:37:34,639 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-27 04:37:34,639 - INFO - Update id=451551488 is handled. Duration 3851 ms by bot id=8066599906
+2025-08-27 04:38:37,465 - INFO - handle_dialog() - Запрос от 5659195074: Что она ест?
+2025-08-27 04:38:40,651 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 04:38:41,024 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-27 04:38:41,024 - INFO - Update id=451551489 is handled. Duration 3559 ms by bot id=8066599906
+2025-08-27 04:39:19,764 - INFO - handle_dialog() - Запрос от 5659195074: Что ест жужелица
+2025-08-27 04:39:23,107 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 04:39:23,470 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-27 04:39:23,471 - INFO - Update id=451551490 is handled. Duration 3706 ms by bot id=8066599906
+2025-08-27 04:40:22,480 - INFO - Очистка истории переписки (5659195074) 
+2025-08-27 04:40:22,735 - INFO - Update id=451551491 is handled. Duration 256 ms by bot id=8066599906
+2025-08-27 04:40:31,588 - INFO - Очистка истории переписки (5659195074) 
+2025-08-27 04:40:31,696 - INFO - Update id=451551492 is handled. Duration 108 ms by bot id=8066599906
+2025-08-27 04:41:04,144 - INFO - handle_dialog() - Запрос от 5659195074: Куда улетают аисты
+2025-08-27 04:41:08,073 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 04:41:08,448 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-27 04:41:08,448 - INFO - Update id=451551493 is handled. Duration 4305 ms by bot id=8066599906
+2025-08-27 04:41:50,750 - INFO - Очистка истории переписки (5659195074) 
+2025-08-27 04:41:51,004 - INFO - Update id=451551494 is handled. Duration 254 ms by bot id=8066599906
+2025-08-27 05:18:37,462 - INFO - handle_dialog() - Запрос от 5659195074: Где живет пингвин
+2025-08-27 05:18:39,418 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 05:18:39,787 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-27 05:18:39,787 - INFO - Update id=451551495 is handled. Duration 2326 ms by bot id=8066599906
+2025-08-27 06:25:06,916 - INFO - Очистка истории переписки (1971927645) 
+2025-08-27 06:25:07,188 - INFO - Update id=451551496 is handled. Duration 273 ms by bot id=8066599906
+2025-08-27 06:25:28,964 - INFO - handle_dialog() - Запрос от 1971927645: Кто такой новохудоносор
+2025-08-27 06:25:33,201 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 06:25:33,636 - INFO - handle_dialog - Ответ: 1971927645 отправлен
+2025-08-27 06:25:33,636 - INFO - Update id=451551497 is handled. Duration 4673 ms by bot id=8066599906
+2025-08-27 18:18:22,414 - INFO - Очистка истории переписки (5659195074) 
+2025-08-27 18:18:22,688 - INFO - Update id=451551498 is handled. Duration 276 ms by bot id=8066599906
+2025-08-27 18:18:28,163 - INFO - handle_dialog() - Запрос от 5659195074: Привет
+2025-08-27 18:18:30,554 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 18:18:30,946 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-27 18:18:30,947 - INFO - Update id=451551499 is handled. Duration 2785 ms by bot id=8066599906
+2025-08-27 18:20:06,155 - WARNING - Received SIGTERM signal
+2025-08-27 18:20:06,156 - INFO - Polling stopped for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
+2025-08-27 18:20:06,157 - INFO - Polling stopped
+2025-08-27 18:20:06,408 - INFO - Остановка бота...

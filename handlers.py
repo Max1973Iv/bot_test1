@@ -8,25 +8,16 @@ import logging
 import os
 from dotenv import load_dotenv
 load_dotenv()
-
-
-# Если векторная база еще не создана:
-#if not os.path.exists('db_index.faiss'):
-#    create_db_index(os.getenv("DATA_DOC_URL"))
-#    logging.info(f"create_db_index() - OK")
-#db_index = load_db_index('db_index')
-
+#
 router = Router()
 dict_memory = dict()  # Словарь для сохранения истории переписки
-
-
 # Inline кнопка для очистки истории переписки
 def kb_clear_memory():
     return InlineKeyboardMarkup(
         inline_keyboard=[[IKB(text="🗑️ Очистить память",
                               callback_data="clear_memory")]])
-
-
+#
+#
 # Функция очистки истории переписки по id пользователя
 async def clear_memory(tg_id):
     try:
@@ -36,8 +27,8 @@ async def clear_memory(tg_id):
                      dict_memory[tg_id]}')
     except:
         logging.error('clear_memory()')
-
-
+#
+#
 # Обработка нажатия на кнопку - очистка истории переписки
 @router.callback_query(F.data == "clear_memory")
 async def handle_clear_callback(callback: CallbackQuery):
@@ -45,23 +36,23 @@ async def handle_clear_callback(callback: CallbackQuery):
     # await callback.message.edit_reply_markup(reply_markup=None) # удаление кнопки после нажатия
     # удаление кнопки с текстом над кнопкой (последнее сообщение)
     await callback.message.delete()
-
-
+#
+#
 # Меню бота
 @router.startup()
 async def set_menu_button(bot: Bot):
     main_menu_commands = [
         BotCommand(command='/start', description='Start')]
     await bot.set_my_commands(main_menu_commands)
-
-
+#
+#
 # Обработка команды /start
 @router.message(Command('start'))
 async def cmd_start(message: Message):
     await clear_memory(message.from_user.id)
     await message.answer("Задайте вопрос")
-
-
+#
+#
 # Обработка текстового сообщения от пользователя
 @router.message(F.text)
 async def handle_dialog(message: Message):
@@ -71,19 +62,20 @@ async def handle_dialog(message: Message):
     if message.from_user.id not in dict_memory:
         dict_memory[message.from_user.id] = ''
     history = f"{dict_memory.get(f'{message.from_user.id}', '')}"
-
+#
     # Запрос к OpenAI
     response = await answer(
         '''Ответь подробно на основании информации которая тебе известна. Пиши четко и понятно, но в стихотворной форме в стиле Пушкина.
         Отвечай только на вопросы про животных. На вопросы не по теме отвечай стихами в японском стиле хайку.''',
         f"История переписки: \n{history} \n\nЗапрос: \n{message.text}")
-
+#
     await message.answer(response)
     await message.answer("Задайте уточняющий вопрос или очистите память перед следующим запросом",
                          reply_markup=kb_clear_memory())
-
+#
     logging.info(
         f"handle_dialog - Ответ: {message.from_user.id} отправлен")
     # запись диалога в историю
     dict_memory[message.from_user.id] += \
         f"\n\nЗапрос пользователя: {message.text}\n\nОтвет: \n{response}"
+#

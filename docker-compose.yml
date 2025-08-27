@@ -10,3 +10,4 @@ services:
     volumes:
       - /proj2/bot_test1:/proj2/bot_test1 # Монтируем текущую директорию в контейнер
     restart: unless-stopped
+#
