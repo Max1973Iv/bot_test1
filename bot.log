@@ -124,3 +124,16 @@
 2025-08-27 18:20:06,156 - INFO - Polling stopped for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
 2025-08-27 18:20:06,157 - INFO - Polling stopped
 2025-08-27 18:20:06,408 - INFO - Остановка бота...
+2025-08-27 18:31:14,796 - INFO - Запуск бота...
+2025-08-27 18:31:15,238 - INFO - Start polling
+2025-08-27 18:31:15,371 - INFO - Run polling for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
+2025-08-27 18:31:15,521 - INFO - Очистка истории переписки (5659195074) 
+2025-08-27 18:31:15,930 - INFO - Update id=451551500 is handled. Duration 409 ms by bot id=8066599906
+2025-08-27 18:31:46,342 - INFO - handle_dialog() - Запрос от 5659195074: Какое самое редкое животное
+2025-08-27 18:31:51,254 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 18:31:51,871 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-27 18:31:51,872 - INFO - Update id=451551501 is handled. Duration 5531 ms by bot id=8066599906
+2025-08-27 18:32:26,444 - INFO - handle_dialog() - Запрос от 5659195074: Сколько лететь до луны
+2025-08-27 18:32:29,786 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 18:32:30,442 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-27 18:32:30,443 - INFO - Update id=451551502 is handled. Duration 3999 ms by bot id=8066599906
