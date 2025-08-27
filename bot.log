@@ -137,3 +137,11 @@
 2025-08-27 18:32:29,786 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-08-27 18:32:30,442 - INFO - handle_dialog - Ответ: 5659195074 отправлен
 2025-08-27 18:32:30,443 - INFO - Update id=451551502 is handled. Duration 3999 ms by bot id=8066599906
+2025-08-27 18:34:18,413 - INFO - handle_dialog() - Запрос от 5659195074: Прошу
+2025-08-27 18:34:20,561 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 18:34:21,015 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-27 18:34:21,016 - INFO - Update id=451551503 is handled. Duration 2605 ms by bot id=8066599906
+2025-08-27 18:34:42,216 - INFO - handle_dialog() - Запрос от 5659195074: Как надуть жабу
+2025-08-27 18:34:44,884 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 18:34:45,341 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-27 18:34:45,341 - INFO - Update id=451551504 is handled. Duration 3126 ms by bot id=8066599906
