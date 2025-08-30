@@ -145,3 +145,97 @@
 2025-08-27 18:34:44,884 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-08-27 18:34:45,341 - INFO - handle_dialog - Ответ: 5659195074 отправлен
 2025-08-27 18:34:45,341 - INFO - Update id=451551504 is handled. Duration 3126 ms by bot id=8066599906
+2025-08-27 18:59:25,049 - INFO - handle_dialog() - Запрос от 5659195074: Привет
+2025-08-27 18:59:25,548 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-08-27 18:59:25,551 - INFO - Update id=451551505 is not handled. Duration 504 ms by bot id=8066599906
+2025-08-27 18:59:25,551 - ERROR - Cause exception while process update id=451551505 by bot id=8066599906
+AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************bZsA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/proj2/bot_test1/handlers.py", line 67, in handle_dialog
+    response = await answer(
+               ^^^^^^^^^^^^^
+  File "/proj2/bot_test1/libs.py", line 22, in answer
+    response = await AsyncOpenAI().chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/resources/chat/completions.py", line 1661, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1843, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1537, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/openai/_base_client.py", line 1638, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************bZsA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-08-27 18:59:34,955 - INFO - Очистка истории переписки (5659195074) 
+2025-08-27 18:59:35,315 - INFO - Update id=451551506 is handled. Duration 360 ms by bot id=8066599906
+2025-08-27 18:59:41,814 - INFO - handle_dialog() - Запрос от 5659195074: Привет
+2025-08-27 18:59:43,923 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 18:59:44,279 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-27 18:59:44,279 - INFO - Update id=451551507 is handled. Duration 2465 ms by bot id=8066599906
+2025-08-27 19:06:40,402 - INFO - Очистка истории переписки (5659195074) 
+2025-08-27 19:06:40,823 - INFO - Update id=451551508 is handled. Duration 422 ms by bot id=8066599906
+2025-08-27 19:06:46,263 - INFO - Очистка истории переписки (5659195074) 
+2025-08-27 19:06:46,444 - INFO - Update id=451551509 is handled. Duration 181 ms by bot id=8066599906
+2025-08-27 19:08:01,957 - INFO - Очистка истории переписки (5659195074) 
+2025-08-27 19:08:02,260 - INFO - Update id=451551510 is handled. Duration 303 ms by bot id=8066599906
+2025-08-27 19:08:17,698 - INFO - handle_dialog() - Запрос от 5659195074: Кот
+2025-08-27 19:08:22,669 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 19:08:23,311 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-27 19:08:23,312 - INFO - Update id=451551511 is handled. Duration 5614 ms by bot id=8066599906
+2025-08-27 19:10:59,451 - INFO - Очистка истории переписки (5659195074) 
+2025-08-27 19:10:59,819 - INFO - Update id=451551512 is handled. Duration 369 ms by bot id=8066599906
+2025-08-27 19:22:25,734 - WARNING - Received SIGTERM signal
+2025-08-27 19:22:25,737 - INFO - Polling stopped for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
+2025-08-27 19:22:25,738 - INFO - Polling stopped
+2025-08-27 19:22:25,989 - INFO - Остановка бота...
