@@ -239,3 +239,16 @@ openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect A
 2025-08-27 19:22:25,737 - INFO - Polling stopped for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
 2025-08-27 19:22:25,738 - INFO - Polling stopped
 2025-08-27 19:22:25,989 - INFO - Остановка бота...
+2025-08-30 18:39:23,825 - INFO - Запуск бота...
+2025-08-30 18:39:24,095 - INFO - Start polling
+2025-08-30 18:39:24,180 - INFO - Run polling for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
+2025-08-30 18:39:24,292 - INFO - Очистка истории переписки (5659195074) 
+2025-08-30 18:39:24,573 - INFO - Update id=451551525 is handled. Duration 281 ms by bot id=8066599906
+2025-08-30 18:39:42,122 - INFO - Очистка истории переписки (5659195074) 
+2025-08-30 18:39:42,493 - INFO - Update id=451551526 is handled. Duration 371 ms by bot id=8066599906
+2025-08-30 18:40:14,339 - INFO - handle_dialog() - Запрос от 5659195074: Кто такой хомяк
+2025-08-30 18:40:17,546 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-30 18:40:17,951 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-08-30 18:40:17,951 - INFO - Update id=451551527 is handled. Duration 3613 ms by bot id=8066599906
+2025-08-30 18:40:34,003 - INFO - Очистка истории переписки (5659195074) 
+2025-08-30 18:40:34,262 - INFO - Update id=451551528 is handled. Duration 259 ms by bot id=8066599906
