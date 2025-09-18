@@ -593,3 +593,20 @@ Original description: Too Many Requests: retry after 5
 2025-09-18 19:46:56,107 - INFO - Polling stopped for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
 2025-09-18 19:46:56,107 - INFO - Polling stopped
 2025-09-18 19:46:56,359 - INFO - Остановка бота...
+2025-09-18 20:20:32,998 - INFO - Запуск бота...
+2025-09-18 20:20:33,329 - INFO - Start polling
+2025-09-18 20:20:33,413 - INFO - Run polling for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
+2025-09-18 20:22:16,321 - INFO - Очистка истории переписки (5659195074) 
+2025-09-18 20:22:16,672 - INFO - Update id=451551541 is handled. Duration 352 ms by bot id=8066599906
+2025-09-18 20:23:25,403 - INFO - handle_dialog() - Запрос от 5659195074: Напиши проектное правило для cursor. Создаем приложение для парсинга телеграм чата
+2025-09-18 20:23:38,481 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:23:39,085 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-09-18 20:23:39,086 - INFO - Update id=451551542 is handled. Duration 13683 ms by bot id=8066599906
+2025-09-18 20:24:58,347 - INFO - handle_dialog() - Запрос от 5659195074: Неверно понято. Я имел ввиду сервис для веб кодинга CURSOR
+2025-09-18 20:25:07,213 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:25:07,585 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-09-18 20:25:07,585 - INFO - Update id=451551543 is handled. Duration 9239 ms by bot id=8066599906
+2025-09-18 20:26:31,521 - INFO - handle_dialog() - Запрос от 5659195074: Напиши cursor rules для создания приложения производящего парсинг телеграм канала
+2025-09-18 20:26:41,966 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:26:42,496 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-09-18 20:26:42,497 - INFO - Update id=451551544 is handled. Duration 10976 ms by bot id=8066599906
