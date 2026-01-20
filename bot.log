@@ -610,3 +610,1435 @@ Original description: Too Many Requests: retry after 5
 2025-09-18 20:26:41,966 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-09-18 20:26:42,496 - INFO - handle_dialog - Ответ: 5659195074 отправлен
 2025-09-18 20:26:42,497 - INFO - Update id=451551544 is handled. Duration 10976 ms by bot id=8066599906
+2025-09-18 20:32:29,067 - INFO - handle_dialog() - Запрос от 5659195074: Что дает использование собственных ключей api при работе с cursor
+2025-09-18 20:32:42,390 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:32:42,758 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-09-18 20:32:42,758 - INFO - Update id=451551545 is handled. Duration 13693 ms by bot id=8066599906
+2025-09-18 20:33:09,914 - INFO - handle_dialog() - Запрос от 5659195074: Кто такой енот
+2025-09-18 20:33:15,073 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:33:15,432 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-09-18 20:33:15,432 - INFO - Update id=451551546 is handled. Duration 5519 ms by bot id=8066599906
+2025-09-18 21:00:33,163 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-09-18 21:00:33,164 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-09-18 21:00:44,407 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-09-18 21:02:45,431 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-09-18 21:02:45,431 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-09-18 21:02:56,697 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-09-18 22:01:53,638 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-18 22:01:53,639 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-09-18 22:03:05,597 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-18 22:03:05,597 - WARNING - Sleep for 1.304029 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-09-18 22:03:21,442 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-09-18 22:36:19,647 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-18 22:36:19,648 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-09-18 22:37:14,499 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-09-18 22:50:41,645 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-18 22:50:41,646 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-09-18 22:51:53,628 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-18 22:51:53,628 - WARNING - Sleep for 1.286451 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-09-18 22:52:07,403 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-09-18 23:03:02,594 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-18 23:03:02,595 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-09-18 23:04:14,588 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-18 23:04:14,589 - WARNING - Sleep for 1.372735 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-09-18 23:04:26,218 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-09-22 05:00:03,308 - INFO - Очистка истории переписки (5659195074) 
+2025-09-22 05:00:03,666 - INFO - Update id=451551547 is handled. Duration 359 ms by bot id=8066599906
+2025-09-22 05:00:59,619 - INFO - handle_dialog() - Запрос от 5659195074: Как найти оригинальный канал по репосту в телеграм
+2025-09-22 05:01:06,995 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 05:01:07,432 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-09-22 05:01:07,432 - INFO - Update id=451551548 is handled. Duration 7814 ms by bot id=8066599906
+2025-09-23 02:12:00,741 - INFO - Очистка истории переписки (2026839971) 
+2025-09-23 02:12:01,002 - INFO - Update id=451551549 is handled. Duration 262 ms by bot id=8066599906
+2025-09-23 19:21:35,889 - INFO - Очистка истории переписки (5659195074) 
+2025-09-23 19:21:36,159 - INFO - Update id=451551550 is handled. Duration 271 ms by bot id=8066599906
+2025-09-23 19:21:58,474 - INFO - handle_dialog() - Запрос от 5659195074: Что такое username телеграм канала
+2025-09-23 19:22:02,912 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 19:22:03,312 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-09-23 19:22:03,313 - INFO - Update id=451551551 is handled. Duration 4839 ms by bot id=8066599906
+2025-09-23 19:24:14,675 - INFO - handle_dialog() - Запрос от 5659195074: Как получить username телеграм канала если известен ID телеграм канала
+2025-09-23 19:24:22,426 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 19:24:22,956 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-09-23 19:24:22,957 - INFO - Update id=451551552 is handled. Duration 8283 ms by bot id=8066599906
+2025-09-26 03:48:51,646 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-09-26 03:48:51,647 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-09-26 03:48:56,458 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-09-26 03:48:56,459 - WARNING - Sleep for 1.387982 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-09-26 03:49:07,938 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-09-26 18:40:49,031 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-09-26 18:40:49,032 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-09-26 18:41:00,297 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-09-29 20:04:48,001 - INFO - handle_dialog() - Запрос от 5659195074: Что такое психотип
+2025-09-29 20:04:58,311 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-29 20:04:58,768 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-09-29 20:04:58,768 - INFO - Update id=451551553 is handled. Duration 10769 ms by bot id=8066599906
+2025-09-29 20:04:59,032 - INFO - Очистка истории переписки (5659195074) 
+2025-09-29 20:04:59,132 - INFO - Update id=451551554 is handled. Duration 100 ms by bot id=8066599906
+2025-09-29 20:05:08,675 - INFO - handle_dialog() - Запрос от 5659195074: Что такое психотип
+2025-09-29 20:05:15,979 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-29 20:05:16,408 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-09-29 20:05:16,409 - INFO - Update id=451551555 is handled. Duration 7733 ms by bot id=8066599906
+2025-09-30 16:00:19,053 - INFO - Очистка истории переписки (5659195074) 
+2025-09-30 16:00:19,554 - INFO - Update id=451551556 is handled. Duration 502 ms by bot id=8066599906
+2025-09-30 16:00:58,131 - INFO - handle_dialog() - Запрос от 5659195074: Как применять аргумент temp при работе с запросом к модели openai
+2025-09-30 16:01:10,088 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-30 16:01:10,699 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-09-30 16:01:10,699 - INFO - Update id=451551557 is handled. Duration 12569 ms by bot id=8066599906
+2025-09-30 21:03:51,133 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-09-30 21:03:51,133 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-09-30 21:04:02,388 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-01 05:23:56,646 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-01 05:23:56,647 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-01 05:25:08,606 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-01 05:25:08,606 - WARNING - Sleep for 1.264705 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-10-01 05:26:20,626 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-01 05:26:20,627 - WARNING - Sleep for 1.753510 seconds and try again... (tryings = 2, bot id = 8066599906)
+2025-10-01 05:27:32,613 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-01 05:27:32,614 - WARNING - Sleep for 2.397037 seconds and try again... (tryings = 3, bot id = 8066599906)
+2025-10-01 05:28:45,613 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-01 05:28:45,613 - WARNING - Sleep for 2.985355 seconds and try again... (tryings = 4, bot id = 8066599906)
+2025-10-01 05:29:59,622 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-01 05:29:59,623 - WARNING - Sleep for 3.868559 seconds and try again... (tryings = 5, bot id = 8066599906)
+2025-10-01 05:30:33,443 - INFO - Connection established (tryings = 6, bot id = 8066599906)
+2025-10-02 19:01:39,201 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-10-02 19:01:39,202 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-02 19:01:50,432 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-03 02:54:54,543 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-10-03 02:54:54,544 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-03 02:55:05,786 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-03 03:06:41,469 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-10-03 03:06:41,470 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-03 03:06:52,717 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-06 12:20:25,590 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-06 12:20:25,591 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-06 12:21:37,614 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-06 12:21:37,615 - WARNING - Sleep for 1.398961 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-10-06 12:22:49,596 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-06 12:22:49,597 - WARNING - Sleep for 1.846425 seconds and try again... (tryings = 2, bot id = 8066599906)
+2025-10-06 12:24:01,655 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-06 12:24:01,655 - WARNING - Sleep for 2.440409 seconds and try again... (tryings = 3, bot id = 8066599906)
+2025-10-06 12:25:14,633 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-06 12:25:14,634 - WARNING - Sleep for 3.018674 seconds and try again... (tryings = 4, bot id = 8066599906)
+2025-10-06 12:26:28,614 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-06 12:26:28,615 - WARNING - Sleep for 3.803911 seconds and try again... (tryings = 5, bot id = 8066599906)
+2025-10-06 12:27:42,597 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-06 12:27:42,598 - WARNING - Sleep for 4.884887 seconds and try again... (tryings = 6, bot id = 8066599906)
+2025-10-06 12:28:33,773 - INFO - Connection established (tryings = 7, bot id = 8066599906)
+2025-10-07 07:21:58,662 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-10-07 07:21:58,662 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-07 07:22:09,907 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-07 19:00:14,247 - INFO - Очистка истории переписки (5659195074) 
+2025-10-07 19:00:14,538 - INFO - Update id=451551558 is handled. Duration 292 ms by bot id=8066599906
+2025-10-07 19:01:01,098 - INFO - handle_dialog() - Запрос от 5659195074: как узнать username по iD канала
+2025-10-07 19:01:08,106 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 19:01:08,660 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-10-07 19:01:08,660 - INFO - Update id=451551559 is handled. Duration 7562 ms by bot id=8066599906
+2025-10-07 19:18:37,956 - INFO - handle_dialog() - Запрос от 5659195074: как перенести строку в редакторе кода vscode
+2025-10-07 19:18:45,644 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-07 19:18:46,016 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-10-07 19:18:46,016 - INFO - Update id=451551560 is handled. Duration 8062 ms by bot id=8066599906
+2025-10-09 21:01:25,208 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-09 21:01:25,209 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-09 21:01:36,455 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-09 22:01:26,640 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-09 22:01:26,641 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-09 22:01:37,878 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-13 11:01:32,342 - INFO - Очистка истории переписки (5659195074) 
+2025-10-13 11:01:32,611 - INFO - Update id=451551561 is handled. Duration 270 ms by bot id=8066599906
+2025-10-13 17:26:10,248 - INFO - handle_dialog() - Запрос от 5659195074: Почему не могу подключиться к copilot в vscode
+2025-10-13 17:26:19,765 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-13 17:26:20,147 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-10-13 17:26:20,147 - INFO - Update id=451551562 is handled. Duration 9900 ms by bot id=8066599906
+2025-10-15 20:05:46,803 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-10-15 20:05:46,803 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-15 20:05:58,034 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-16 03:53:39,288 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-10-16 03:53:39,288 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-16 03:53:50,542 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-16 17:16:09,558 - INFO - Очистка истории переписки (5659195074) 
+2025-10-16 17:16:09,834 - INFO - Update id=451551563 is handled. Duration 277 ms by bot id=8066599906
+2025-10-16 17:38:31,220 - INFO - Очистка истории переписки (5659195074) 
+2025-10-16 17:38:31,480 - INFO - Update id=451551564 is handled. Duration 260 ms by bot id=8066599906
+2025-10-18 01:10:48,882 - ERROR - Failed to fetch updates - TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'GetUpdates'. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-10-18 01:10:48,883 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-18 01:10:49,966 - ERROR - Failed to fetch updates - TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'GetUpdates'. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-10-18 01:10:49,966 - WARNING - Sleep for 1.282944 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-10-18 01:10:51,332 - ERROR - Failed to fetch updates - TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'GetUpdates'. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-10-18 01:10:51,332 - WARNING - Sleep for 1.518279 seconds and try again... (tryings = 2, bot id = 8066599906)
+2025-10-18 01:10:55,063 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-10-18 01:10:55,063 - WARNING - Sleep for 2.061763 seconds and try again... (tryings = 3, bot id = 8066599906)
+2025-10-18 01:10:57,209 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-10-18 01:10:57,209 - WARNING - Sleep for 2.656863 seconds and try again... (tryings = 4, bot id = 8066599906)
+2025-10-18 01:11:20,311 - INFO - Connection established (tryings = 5, bot id = 8066599906)
+2025-10-20 17:02:15,548 - INFO - Очистка истории переписки (5659195074) 
+2025-10-20 17:02:15,823 - INFO - Update id=451551565 is handled. Duration 278 ms by bot id=8066599906
+2025-10-20 22:06:39,635 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-20 22:06:39,636 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-20 22:06:50,894 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-22 14:12:12,956 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 14:12:12,958 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-22 14:12:24,207 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-22 14:20:38,291 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 14:20:38,292 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-22 14:20:49,544 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-24 13:53:52,123 - INFO - Очистка истории переписки (5407880756) 
+2025-10-24 13:54:52,588 - INFO - Update id=451551566 is not handled. Duration 60466 ms by bot id=8066599906
+2025-10-24 13:54:52,589 - ERROR - Cause exception while process update id=451551566 by bot id=8066599906
+TelegramNetworkError: HTTP Client says - Request timeout error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/client.py", line 663, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/connector.py", line 538, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/connector.py", line 1050, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/connector.py", line 1353, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/connector.py", line 1109, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiohappyeyeballs/impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiohappyeyeballs/impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 651, in sock_connect
+    return await fut
+           ^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 181, in make_request
+    async with session.post(
+               ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/client.py", line 1360, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/client.py", line 578, in _request
+    with timer:
+         ^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/helpers.py", line 749, in __exit__
+    raise asyncio.TimeoutError from exc_val
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/proj2/bot_test1/handlers.py", line 53, in cmd_start
+    await message.answer("Задайте вопрос")
+  File "/usr/local/lib/python3.12/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/client/bot.py", line 494, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 186, in make_request
+    raise TelegramNetworkError(method=method, message="Request timeout error")
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-25 15:43:27,366 - INFO - Очистка истории переписки (5659195074) 
+2025-10-25 15:43:27,684 - INFO - Update id=451551567 is handled. Duration 318 ms by bot id=8066599906
+2025-10-25 15:43:35,884 - INFO - handle_dialog() - Запрос от 5659195074: Вопрос
+2025-10-25 15:43:38,064 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:43:38,494 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-10-25 15:43:38,494 - INFO - Update id=451551568 is handled. Duration 2611 ms by bot id=8066599906
+2025-10-25 15:43:45,301 - INFO - Очистка истории переписки (5659195074) 
+2025-10-25 15:43:45,562 - INFO - Update id=451551569 is handled. Duration 261 ms by bot id=8066599906
+2025-10-25 15:44:01,187 - INFO - handle_dialog() - Запрос от 5659195074: Кто такой енот
+2025-10-25 15:44:06,677 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:44:07,067 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-10-25 15:44:07,067 - INFO - Update id=451551570 is handled. Duration 5881 ms by bot id=8066599906
+2025-10-25 15:45:18,252 - INFO - handle_dialog() - Запрос от 5659195074: Какие функции может выполнять телеграм бот
+2025-10-25 15:45:24,525 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:45:24,917 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-10-25 15:45:24,917 - INFO - Update id=451551571 is handled. Duration 6667 ms by bot id=8066599906
+2025-10-25 15:48:34,594 - INFO - Очистка истории переписки (5659195074) 
+2025-10-25 15:48:34,881 - INFO - Update id=451551572 is handled. Duration 287 ms by bot id=8066599906
+2025-10-25 15:50:26,966 - INFO - handle_dialog() - Запрос от 5659195074: Какой телефон выбрать для приема звонков на рабочем месте в офисе
+2025-10-25 15:50:39,227 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:50:39,603 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-10-25 15:50:39,604 - INFO - Update id=451551573 is handled. Duration 12639 ms by bot id=8066599906
+2025-10-25 15:51:50,227 - INFO - handle_dialog() - Запрос от 5659195074: Как работать с ip телефоном
+2025-10-25 15:52:01,663 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-25 15:52:02,165 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-10-25 15:52:02,165 - INFO - Update id=451551574 is handled. Duration 11939 ms by bot id=8066599906
+2025-10-26 04:47:02,589 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-26 04:47:02,590 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-26 04:47:08,298 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-26 04:47:08,298 - WARNING - Sleep for 1.390216 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-10-26 04:47:19,774 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-10-27 22:51:59,637 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-27 22:51:59,638 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-27 22:52:02,958 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-27 22:52:02,959 - WARNING - Sleep for 1.216981 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-10-27 22:52:14,263 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-10-28 01:46:23,614 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-28 01:46:23,615 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-28 01:47:14,024 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-28 10:16:04,597 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-28 10:16:04,598 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-28 10:16:08,980 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-28 10:16:08,981 - WARNING - Sleep for 1.385320 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-10-28 10:16:20,456 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-10-28 23:03:25,630 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-28 23:03:25,630 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-28 23:03:28,013 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-28 23:03:28,013 - WARNING - Sleep for 1.192902 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-10-28 23:03:39,288 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-10-28 23:34:44,613 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-28 23:34:44,614 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-28 23:35:39,111 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-28 23:53:58,644 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-28 23:53:58,645 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-28 23:54:03,155 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-28 23:54:03,155 - WARNING - Sleep for 1.261852 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-10-28 23:54:14,508 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-10-29 02:01:42,590 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-29 02:01:42,591 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-29 02:01:46,767 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-29 02:01:46,768 - WARNING - Sleep for 1.391588 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-10-29 02:01:58,249 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-10-29 02:22:48,637 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-29 02:22:48,638 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-29 02:22:59,892 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-29 02:23:18,812 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-29 02:23:18,813 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-29 02:23:29,898 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-10-30 13:36:41,597 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-30 13:36:41,598 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-30 13:36:45,070 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-30 13:36:45,070 - WARNING - Sleep for 1.382589 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-10-30 13:36:56,536 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-10-30 13:59:00,651 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-10-30 13:59:00,652 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-10-30 13:59:04,465 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-10-30 13:59:04,466 - WARNING - Sleep for 1.171183 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-10-30 13:59:15,726 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-11-03 16:57:50,870 - INFO - Очистка истории переписки (5659195074) 
+2025-11-03 16:57:51,220 - INFO - Update id=451551575 is handled. Duration 351 ms by bot id=8066599906
+2025-11-03 16:58:15,621 - INFO - handle_dialog() - Запрос от 5659195074: Расскажи про создание эмбеддингов
+2025-11-03 16:58:34,229 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-03 16:58:34,702 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-03 16:58:34,702 - INFO - Update id=451551576 is handled. Duration 19082 ms by bot id=8066599906
+2025-11-03 20:57:07,582 - INFO - Очистка истории переписки (5659195074) 
+2025-11-03 20:57:07,843 - INFO - Update id=451551577 is handled. Duration 263 ms by bot id=8066599906
+2025-11-04 12:41:49,549 - INFO - handle_dialog() - Запрос от 5659195074: Переведи на английский строку с адресом клиента: "Шолохова 8, Алма-Аты"
+2025-11-04 12:41:52,250 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-04 12:41:52,632 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-04 12:41:52,632 - INFO - Update id=451551578 is handled. Duration 3085 ms by bot id=8066599906
+2025-11-04 13:21:10,328 - INFO - handle_dialog() - Запрос от 5659195074: Переведи на русский фразу из документа: "legal type"
+2025-11-04 13:21:12,219 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-04 13:21:12,600 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-04 13:21:12,600 - INFO - Update id=451551579 is handled. Duration 2274 ms by bot id=8066599906
+2025-11-04 13:47:42,949 - INFO - handle_dialog() - Запрос от 5659195074: Переведи на английский аббревиатуру "ООО"
+2025-11-04 13:47:45,752 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-04 13:47:46,356 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-04 13:47:46,356 - INFO - Update id=451551580 is handled. Duration 3410 ms by bot id=8066599906
+2025-11-04 13:48:19,993 - INFO - handle_dialog() - Запрос от 5659195074: Сделай то же для "ИП"
+2025-11-04 13:48:23,975 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-04 13:48:24,405 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-04 13:48:24,405 - INFO - Update id=451551581 is handled. Duration 4412 ms by bot id=8066599906
+2025-11-04 13:48:47,264 - INFO - handle_dialog() - Запрос от 5659195074: Переведи на английский аббревиатуру "ИП"
+2025-11-04 13:48:49,651 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-04 13:48:50,088 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-04 13:48:50,089 - INFO - Update id=451551582 is handled. Duration 2826 ms by bot id=8066599906
+2025-11-04 15:35:45,919 - INFO - handle_dialog() - Запрос от 5659195074: Что означает на русском языке термины "legal type" и "other legal identification"
+2025-11-04 15:35:50,980 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-04 15:35:51,365 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-04 15:35:51,365 - INFO - Update id=451551583 is handled. Duration 5448 ms by bot id=8066599906
+2025-11-04 15:42:17,899 - INFO - handle_dialog() - Запрос от 5659195074: Дай значение аббревиатуры УНП на английском языке
+2025-11-04 15:42:26,961 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-04 15:42:27,407 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-04 15:42:27,407 - INFO - Update id=451551584 is handled. Duration 9510 ms by bot id=8066599906
+2025-11-04 15:48:51,122 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-11-04 15:48:51,123 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-04 15:49:02,365 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-06 15:55:40,900 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-06 15:55:40,901 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-06 15:55:52,147 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-11 15:18:30,569 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-11 15:18:30,569 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-11 15:18:41,811 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-16 18:58:49,113 - INFO - handle_dialog() - Запрос от 5659195074: # @title Промпт_1
+
+Я оставил заявку на бесплатный вебинар по AI, считай, что я ничего не знаю про AI.
+А вот твоя инструкция:
+
+Вы — виртуальный профессиональный менеджер по продажам курсов обучения искусственному интеллекту (ИИ) нашей компании. Ваша основная задача — эффективно выявить потребности
+клиента, презентовать преимущества курсов,
+ ответить на их вопросы, преодолеть возражения и вдохновить клиента на покупку. Все взаимодействие происходит через Telegram-бот.
+
+## Основные задачи:
+1. Выявление потребностей клиента:
+   Задавайте открытые и уточняющие вопросы, чтобы точно понять, какие цели ставит перед собой клиент.
+   Например:
+   - "Какую цель вы хотели бы достичь с помощью обучения в области ИИ?"
+   - "Насколько вам интересно работать на фрилансе или, возможно, создавать собственный AI-проект?"
+   - "Есть ли у вас желание изучать ИИ как хобби или для карьерного роста?"
+
+2. Адаптация презентации курсов:
+   На основе ответов клиента адаптируйте свою презентацию, подчеркивая соответствующие преимущества:
+   - Высокие доходы в сфере AI и потенциальный карьерный рост.
+   - Интересный и актуальный контент обучения.
+   - Поддержка от опытных преподавателей и возможностей использования нейросетей для глубокого погружения в тему.
+
+3. Описание гарантий:
+   Убедите клиента, рассказав о следующих гарантиях и возможностях:
+   - Стажировки на реальных проектах с использованием полученных знаний.
+   - Гарантированное трудоустройство или возможность возврата средств при неудовлетворенности курсом.
+   - Постоянная поддержка преподавателей и доступ к ресурсам: Zoom-консультации, нейро-кураторы и нейро-репетиторы для помощи в обучении.
+
+4. Ответы на частые вопросы и возражения:
+   Будьте готовы к вопросам и сомнениям клиентов, предлагайте уверенные и аргументированные ответы:
+   - "Я не программист" — наши курсы созданы как для новичков, так и для тех, кто уже имеет базу навыков.
+   - "У меня нет времени" — обучение гибкое, всего 2-3 часа в неделю, что позволяет совмещать с работой или учебой.
+   - "Курсы дорогие" — стоимость начинается от 4719 руб./мес., с возможностью рассрочки, что значительно упрощает доступ.
+   - "Я хочу только вебинар" — Конечно. ждем вас на нашем вебинаре, а после него наш менеджер может предоставить вам полную информацию, чтобы у вас была возможность принять
+   обоснованное решение.
+
+5. Сбор контактных данных:
+   Убедительно, но ненавязчиво предложите клиенту оставить свои контактные данные для более детальной консультации:
+   - "Пожалуйста, оставьте ваш номер телефона или email, чтобы наш эксперт смог подробно рассказать о курсах и помочь вам с выбором."
+
+## Тон общения:
+- Используйте дружелюбный и уверенный подход.
+- Проявляйте искренний интерес к потребностям клиента и готовность помочь.
+- Будьте уважительными и профессиональными, избегая давления и навязывания.
+
+Помните:
+- Потребности клиентов — это их желания, которые вы можете удовлетворить с помощью качественного обучения.
+- Возражения — это просто сомнения; ваша задача — развеять их с помощью аргументированных ответов.
+- Ваша цель — донести ценность курсов, ответить на возникающие вопросы и мотивировать клиента принять решение о начале обучения в области ИИ.
+
+Ты знаешь, что для успешной продажи тебе нужно пройти этапы:
+Выявления потребности
+Презентации выгоды обучения для клиента
+Предложения купить
+Запроса контактных данных в виде электронной почты и номера телефона
+2025-11-16 18:59:02,245 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-16 18:59:02,704 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-16 18:59:02,704 - INFO - Update id=451551585 is handled. Duration 13593 ms by bot id=8066599906
+2025-11-16 18:59:29,248 - INFO - Очистка истории переписки (5659195074) 
+2025-11-16 18:59:29,497 - INFO - Update id=451551586 is handled. Duration 250 ms by bot id=8066599906
+2025-11-16 18:59:39,810 - INFO - Очистка истории переписки (5659195074) 
+2025-11-16 18:59:39,950 - INFO - Update id=451551587 is handled. Duration 139 ms by bot id=8066599906
+2025-11-16 19:00:47,551 - INFO - handle_dialog() - Запрос от 5659195074: стоп
+2025-11-16 19:00:50,020 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-16 19:00:50,379 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-16 19:00:50,379 - INFO - Update id=451551588 is handled. Duration 2829 ms by bot id=8066599906
+2025-11-16 19:00:54,650 - INFO - Очистка истории переписки (5659195074) 
+2025-11-16 19:00:54,773 - INFO - Update id=451551589 is handled. Duration 124 ms by bot id=8066599906
+2025-11-20 05:18:31,148 - INFO - Очистка истории переписки (1971927645) 
+2025-11-20 05:18:31,393 - INFO - Update id=451551590 is not handled. Duration 247 ms by bot id=8066599906
+2025-11-20 05:18:31,394 - ERROR - Cause exception while process update id=451551590 by bot id=8066599906
+TelegramBadRequest: Telegram server says - Bad Request: message can't be deleted for everyone
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/proj2/bot_test1/handlers.py", line 38, in handle_clear_callback
+    await callback.message.delete()
+  File "/usr/local/lib/python3.12/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/client/bot.py", line 494, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/client/session/aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message can't be deleted for everyone
+2025-11-20 05:18:46,875 - INFO - Очистка истории переписки (1971927645) 
+2025-11-20 05:18:47,135 - INFO - Update id=451551591 is handled. Duration 259 ms by bot id=8066599906
+2025-11-20 05:18:53,018 - INFO - handle_dialog() - Запрос от 1971927645: GPT-4o-mini
+2025-11-20 05:18:55,849 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 05:18:56,060 - INFO - handle_dialog - Ответ: 1971927645 отправлен
+2025-11-20 05:18:56,060 - INFO - Update id=451551592 is handled. Duration 3043 ms by bot id=8066599906
+2025-11-20 05:19:06,065 - INFO - handle_dialog() - Запрос от 1971927645: GPT-4o-mini
+2025-11-20 05:19:09,569 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 05:19:09,779 - INFO - handle_dialog - Ответ: 1971927645 отправлен
+2025-11-20 05:19:09,779 - INFO - Update id=451551593 is handled. Duration 3715 ms by bot id=8066599906
+2025-11-20 05:19:23,336 - INFO - handle_dialog() - Запрос от 1971927645: Gemini 1.5 Flash
+2025-11-20 05:19:27,050 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 05:19:27,411 - INFO - handle_dialog - Ответ: 1971927645 отправлен
+2025-11-20 05:19:27,412 - INFO - Update id=451551594 is handled. Duration 4076 ms by bot id=8066599906
+2025-11-20 05:19:36,449 - INFO - Очистка истории переписки (1971927645) 
+2025-11-20 05:19:36,536 - INFO - Update id=451551595 is handled. Duration 87 ms by bot id=8066599906
+2025-11-20 05:19:41,561 - INFO - Очистка истории переписки (1971927645) 
+2025-11-20 05:19:41,644 - INFO - Update id=451551596 is handled. Duration 83 ms by bot id=8066599906
+2025-11-20 05:20:29,827 - INFO - handle_dialog() - Запрос от 1971927645: Дай список точек макбай беларусь
+2025-11-20 05:20:33,612 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 05:20:33,985 - INFO - handle_dialog - Ответ: 1971927645 отправлен
+2025-11-20 05:20:33,985 - INFO - Update id=451551597 is handled. Duration 4159 ms by bot id=8066599906
+2025-11-20 05:21:06,922 - INFO - handle_dialog() - Запрос от 1971927645: Чем занимается ооо блгрупп в Беларуси
+2025-11-20 05:21:09,732 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 05:21:10,096 - INFO - handle_dialog - Ответ: 1971927645 отправлен
+2025-11-20 05:21:10,096 - INFO - Update id=451551598 is handled. Duration 3174 ms by bot id=8066599906
+2025-11-20 05:21:32,283 - INFO - handle_dialog() - Запрос от 1971927645: Дай ссылку на сайт
+2025-11-20 05:21:34,281 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 05:21:34,637 - INFO - handle_dialog - Ответ: 1971927645 отправлен
+2025-11-20 05:21:34,638 - INFO - Update id=451551599 is handled. Duration 2355 ms by bot id=8066599906
+2025-11-20 05:21:51,497 - INFO - handle_dialog() - Запрос от 1971927645: Нужен сайт ооо блгрупп
+2025-11-20 05:21:56,782 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-20 05:21:57,172 - INFO - handle_dialog - Ответ: 1971927645 отправлен
+2025-11-20 05:21:57,172 - INFO - Update id=451551600 is handled. Duration 5676 ms by bot id=8066599906
+2025-11-20 12:44:09,629 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-11-20 12:44:09,630 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-20 12:44:12,169 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-20 12:44:12,169 - WARNING - Sleep for 1.429518 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-11-20 12:44:23,682 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-11-21 01:10:53,529 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-11-21 01:10:53,530 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-21 01:10:54,614 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-11-21 01:10:54,615 - WARNING - Sleep for 1.264207 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-11-21 01:10:55,965 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-11-21 01:10:55,965 - WARNING - Sleep for 1.572855 seconds and try again... (tryings = 2, bot id = 8066599906)
+2025-11-21 01:11:19,601 - INFO - Connection established (tryings = 3, bot id = 8066599906)
+2025-11-21 04:36:30,769 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-11-21 04:36:30,770 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-21 04:36:42,011 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-21 14:18:47,084 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-21 14:18:47,084 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-21 14:18:58,328 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-23 06:00:56,531 - INFO - Очистка истории переписки (1971927645) 
+2025-11-23 06:00:56,794 - INFO - Update id=451551601 is handled. Duration 264 ms by bot id=8066599906
+2025-11-25 13:52:09,453 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-25 13:52:09,453 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-25 13:52:20,700 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-25 18:55:37,652 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-11-25 18:55:37,652 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-25 18:55:48,910 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-26 05:16:06,625 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-11-26 05:16:06,626 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-26 05:16:17,906 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-26 05:19:49,943 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-11-26 05:19:49,944 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-26 05:20:01,204 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-26 09:50:54,409 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-11-26 09:50:54,410 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-26 09:51:05,709 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-26 10:34:58,897 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-11-26 10:34:58,898 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-26 10:35:10,161 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-26 10:36:41,033 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-11-26 10:36:41,033 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-26 10:36:52,271 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-26 10:36:52,349 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-11-26 10:36:52,349 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-11-26 10:37:03,586 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-11-27 17:54:00,894 - INFO - Очистка истории переписки (5659195074) 
+2025-11-27 17:54:01,167 - INFO - Update id=451551602 is handled. Duration 274 ms by bot id=8066599906
+2025-11-27 17:54:33,747 - INFO - handle_dialog() - Запрос от 5659195074: вспомните из фильма/мульфильма/сказки/истории РФ... любой персонаж или просто хорошо заметные в диалоге характерные черты продажника
+2025-11-27 17:54:41,905 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 17:54:42,331 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-27 17:54:42,331 - INFO - Update id=451551603 is handled. Duration 8586 ms by bot id=8066599906
+2025-11-27 17:56:39,426 - INFO - handle_dialog() - Запрос от 5659195074: приведи фразы Шарика которыми можно стилизовать ответы менеджера по продаже курсов
+2025-11-27 17:56:47,925 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 17:56:48,468 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-27 17:56:48,468 - INFO - Update id=451551604 is handled. Duration 9043 ms by bot id=8066599906
+2025-11-27 17:57:10,802 - INFO - Очистка истории переписки (5659195074) 
+2025-11-27 17:57:11,061 - INFO - Update id=451551605 is handled. Duration 259 ms by bot id=8066599906
+2025-11-27 17:58:03,450 - INFO - handle_dialog() - Запрос от 5659195074: приведи фразы Шарика из фильма Собачье сердце которыми можно стилизовать ответы менеджера по продаже курсов
+2025-11-27 17:58:08,776 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 17:58:09,207 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-27 17:58:09,207 - INFO - Update id=451551606 is handled. Duration 5758 ms by bot id=8066599906
+2025-11-27 17:58:35,017 - INFO - Очистка истории переписки (5659195074) 
+2025-11-27 17:58:35,349 - INFO - Update id=451551607 is handled. Duration 332 ms by bot id=8066599906
+2025-11-27 18:02:25,437 - INFO - handle_dialog() - Запрос от 5659195074: вспомните из фильма или мульфильма или сказки или истории РФ  любой персонаж или просто хорошо заметные в диалоге характерные черты продажника. обязательно дай пример фраз или речевых оборотов которые можно применить для стилизации ответов менеджера по продажам
+2025-11-27 18:02:35,090 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 18:02:35,481 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-27 18:02:35,481 - INFO - Update id=451551608 is handled. Duration 10045 ms by bot id=8066599906
+2025-11-27 18:04:12,149 - INFO - Очистка истории переписки (5659195074) 
+2025-11-27 18:04:12,408 - INFO - Update id=451551609 is handled. Duration 260 ms by bot id=8066599906
+2025-11-27 18:05:37,412 - INFO - handle_dialog() - Запрос от 5659195074: приведи пример из советского фильма или мульфильма или сказки или истории РФ  любой персонаж у которого есть хорошо заметные в диалоге характерные черты продажника. обязательно дай пример фраз или речевых оборотов которые можно применить для стилизации ответов менеджера по продажам
+2025-11-27 18:05:48,731 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-27 18:05:49,130 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-11-27 18:05:49,131 - INFO - Update id=451551610 is handled. Duration 11720 ms by bot id=8066599906
+2025-12-01 17:13:48,102 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-12-01 17:13:48,103 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-01 17:13:59,348 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-01 17:26:55,592 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-12-01 17:26:55,593 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-01 17:27:06,838 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-01 17:40:53,528 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-12-01 17:40:53,529 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-01 17:41:04,781 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-01 17:41:04,783 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-12-01 17:41:04,784 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-01 17:41:16,026 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-01 21:08:21,844 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-01 21:08:21,844 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-01 21:08:33,113 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-01 21:25:42,420 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-01 21:25:42,421 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-01 21:25:53,667 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-02 09:18:00,785 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-02 09:18:00,786 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-02 09:18:12,051 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-02 11:02:49,323 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-02 11:02:49,324 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-02 11:03:00,568 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-08 06:55:41,842 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-12-08 06:55:41,843 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-08 06:55:50,460 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connection reset by peer]
+2025-12-08 06:55:50,460 - WARNING - Sleep for 1.496657 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-12-08 06:56:02,208 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-12-08 15:21:28,558 - INFO - Очистка истории переписки (5659195074) 
+2025-12-08 15:21:28,832 - INFO - Update id=451551611 is handled. Duration 275 ms by bot id=8066599906
+2025-12-08 15:21:40,706 - INFO - handle_dialog() - Запрос от 5659195074: Кто такой манул
+2025-12-08 15:21:49,052 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 15:21:49,460 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-12-08 15:21:49,460 - INFO - Update id=451551612 is handled. Duration 8755 ms by bot id=8066599906
+2025-12-08 15:22:29,447 - INFO - handle_dialog() - Запрос от 5659195074: Это камышовый кот ?
+2025-12-08 15:22:33,463 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 15:22:33,856 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-12-08 15:22:33,857 - INFO - Update id=451551613 is handled. Duration 4410 ms by bot id=8066599906
+2025-12-08 15:22:57,098 - INFO - handle_dialog() - Запрос от 5659195074: Камышовый кот это манул ?
+2025-12-08 15:23:03,173 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 15:23:03,554 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-12-08 15:23:03,555 - INFO - Update id=451551614 is handled. Duration 6457 ms by bot id=8066599906
+2025-12-08 15:25:59,146 - INFO - handle_dialog() - Запрос от 5659195074: Дай рекомендации для написания системного промпта, user prompt, assistant prompt
+2025-12-08 15:26:16,768 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-08 15:26:17,268 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-12-08 15:26:17,268 - INFO - Update id=451551615 is handled. Duration 18124 ms by bot id=8066599906
+2025-12-08 18:54:38,622 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-08 18:54:38,623 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-08 18:54:49,860 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-08 21:13:21,642 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-08 21:13:21,642 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-08 21:13:52,488 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-08 22:36:26,623 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-08 22:36:26,624 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-08 22:36:49,257 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-09 05:08:54,663 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-09 05:08:54,664 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-09 05:09:05,925 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-09 06:46:45,480 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-09 06:46:45,481 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-09 06:46:56,732 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-09 09:17:33,824 - INFO - handle_dialog() - Запрос от 1971927645: На основе какой базы знаний ты даешь ответы?
+2025-12-09 09:17:37,965 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-09 09:17:38,402 - INFO - handle_dialog - Ответ: 1971927645 отправлен
+2025-12-09 09:17:38,403 - INFO - Update id=451551616 is handled. Duration 4581 ms by bot id=8066599906
+2025-12-09 09:18:36,381 - INFO - handle_dialog() - Запрос от 1971927645: Почему твои знания актуальны именно до октября 23 года
+2025-12-09 09:18:38,915 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-09 09:18:39,338 - INFO - handle_dialog - Ответ: 1971927645 отправлен
+2025-12-09 09:18:39,339 - INFO - Update id=451551617 is handled. Duration 2958 ms by bot id=8066599906
+2025-12-09 19:50:26,188 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-12-09 19:50:26,189 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-09 19:50:37,437 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 05:53:02,037 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 05:53:02,038 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 05:53:13,309 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 05:54:13,955 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 05:54:13,955 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 05:54:25,229 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 05:55:15,763 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 05:55:15,764 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 05:55:27,012 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:04:51,846 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:04:51,846 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:05:03,113 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:05:53,657 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:05:53,658 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:06:04,929 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:08:26,252 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:08:26,252 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:08:37,504 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:09:17,929 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:09:17,930 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:09:29,193 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:09:49,456 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:09:49,457 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:10:00,721 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:26:59,778 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:26:59,778 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:27:11,041 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:28:11,653 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:28:11,653 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:29:23,598 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-10 06:29:23,601 - WARNING - Sleep for 1.376544 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-12-10 06:29:35,253 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-12-10 06:33:58,812 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:33:58,814 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:34:10,078 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:36:01,125 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:36:01,126 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:36:12,379 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:40:14,514 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:40:14,515 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:40:25,784 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:41:36,482 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:41:36,482 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:41:47,732 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:41:57,907 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:41:57,907 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:42:09,157 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:43:01,993 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:43:01,993 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:43:13,258 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:44:47,223 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:44:47,224 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:44:58,490 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:48:00,184 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:48:00,184 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:48:11,445 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:48:22,066 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:48:22,066 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:48:33,366 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:48:54,087 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:48:54,087 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:49:05,363 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 06:49:15,535 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 06:49:15,535 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 06:49:26,799 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:06:26,055 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:06:26,056 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:06:38,389 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:07:08,751 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:07:08,751 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:07:20,036 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:12:43,325 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:12:43,326 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:12:54,580 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:15:05,795 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:15:05,796 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:15:18,106 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:16:38,944 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:16:38,945 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:16:50,215 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:17:00,385 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:17:00,385 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:17:11,634 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:21:54,400 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:21:54,401 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:22:05,653 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:24:26,003 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:24:26,004 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:24:37,281 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:25:27,817 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:25:27,817 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:25:39,082 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:26:19,514 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:26:19,515 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:26:30,767 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:28:01,618 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:28:01,619 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:28:12,913 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:51:16,914 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:51:16,915 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:51:28,179 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:52:18,709 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:52:18,709 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:52:29,978 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:53:30,605 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:53:30,606 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:53:41,859 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:55:32,890 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:55:32,890 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:55:44,154 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:57:25,112 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:57:25,114 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:57:36,382 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:58:26,908 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:58:26,908 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:58:38,186 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 07:59:18,626 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 07:59:18,626 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 07:59:29,876 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:03:23,064 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:03:23,066 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:03:34,341 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:04:36,195 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:04:36,195 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:04:47,458 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:22:16,827 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:22:16,828 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:22:28,084 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:22:48,342 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:22:48,343 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:22:59,593 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:23:40,030 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:23:40,030 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:23:51,304 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:27:43,553 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:27:43,554 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:27:55,846 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:27:55,932 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:27:55,932 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:28:07,201 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:28:27,464 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:28:27,465 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:28:38,738 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:29:19,191 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:29:19,192 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:29:30,448 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:29:30,533 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:29:30,533 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:29:41,798 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:30:12,163 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:30:12,163 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:30:23,443 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:31:03,877 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:31:03,878 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:31:15,129 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:32:35,884 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:32:35,884 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:32:47,156 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:40:41,478 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 08:40:41,479 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 08:40:52,735 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 08:53:45,393 - INFO - Очистка истории переписки (5659195074) 
+2025-12-10 08:53:45,681 - INFO - Update id=451551618 is handled. Duration 290 ms by bot id=8066599906
+2025-12-10 08:53:48,991 - INFO - Очистка истории переписки (5659195074) 
+2025-12-10 08:53:49,100 - INFO - Update id=451551619 is handled. Duration 110 ms by bot id=8066599906
+2025-12-10 08:53:54,042 - INFO - handle_dialog() - Запрос от 5659195074: Ты эксперт по анализу данных. Сделай анализ данных. Вычисли требуемые значения. Объясни свое решение.
+Исходные данные:
+Каждым из пяти приборов (b1, b2, b3, b4, b5) измеряется масса с определенной ошибкой (b1xo, b2xo, b3xo, b4xo, b5xo).
+Имеются данные по нескольким измерениям с разными комбинациями приборов.
+1.  комбинация из четырех измерений приборами b1+b2+b4+b5 = 2892+2813+10710+8602 = 25017 кг
+при контрольном измерении на эталонном приборе данная масса составила 25180 кг, соответственно общая ошибка измерений приборами +163 кг.
+2.  комбинация из двух измерений приборами b1+b4 = 8387+15682 = 24069 кг
+при контрольном измерении на эталонном приборе данная масса составила 23960 кг, соответственно общая ошибка измерений приборами -109 кг.
+3.  комбинация из двух измерений приборами b1+b4 = 19279+5200 = 24479 кг
+при контрольном измерении на эталонном приборе данная масса составила 24320 кг, соответственно общая ошибка измерений приборами -159 кг.
+4.  комбинация из двух измерений приборами b2+b5 = 16496+8106 = 24602 кг
+при контрольном измерении на эталонном приборе данная масса составила 24360 кг, соответственно общая ошибка измерений приборами -242 кг.
+5.  комбинация из двух измерений приборами b1+b3 = 4558+20004 = 24562 кг
+при контрольном измерении на эталонном приборе данная масса составила 24280 кг, соответственно общая ошибка измерений приборами -282 кг.
+6.  комбинация из двух измерений приборами b1+b5 = 3427+19665 = 23092 кг
+при контрольном измерении на эталонном приборе данная масса составила 22780 кг, соответственно общая ошибка измерений приборами -312 кг.
+7.  комбинация из четырех измерений приборами b1+b3+b4+b5 = 2470+10559+875+9203 = 23107 кг
+при контрольном измерении на эталонном приборе данная масса составила 22720 кг, соответственно общая ошибка измерений приборами -387 кг.
+
+Обрати внимание что одном случае b1+b4 = 8387+15682 = 24069 то есть здесь прибором b1 измерено 35% общей массы, а прибором b4 измерено 65 % общей массы. Во втором случае b1+b4 = 19279+5200=24479 здесь прибором b1 измерено 79% общей массы, а прибором b4 измерено 21% общей массы.
+Учитывай доли массы измеренной каждым прибором.
+Вычисли ошибку определения массы каждым прибором.
+Дай оценку точности своего решения. Дай объяснение результата простыми словами.
+2025-12-10 08:54:19,578 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-10 08:54:20,087 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-12-10 08:54:20,088 - INFO - Update id=451551620 is handled. Duration 26047 ms by bot id=8066599906
+2025-12-10 08:55:50,036 - INFO - Очистка истории переписки (5659195074) 
+2025-12-10 08:55:50,294 - INFO - Update id=451551621 is handled. Duration 259 ms by bot id=8066599906
+2025-12-10 09:57:12,232 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 09:57:12,233 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 09:57:23,491 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 12:43:33,462 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 12:43:33,463 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 12:43:44,738 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-10 12:44:15,095 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-10 12:44:15,096 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-10 12:44:26,344 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-11 05:18:54,620 - INFO - Очистка истории переписки (5659195074) 
+2025-12-11 05:18:54,889 - INFO - Update id=451551622 is handled. Duration 274 ms by bot id=8066599906
+2025-12-11 05:19:34,155 - INFO - handle_dialog() - Запрос от 5659195074: Чем фиксированный ip адрес лучше динамического
+2025-12-11 05:19:43,540 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 05:19:43,937 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-12-11 05:19:43,937 - INFO - Update id=451551623 is handled. Duration 9784 ms by bot id=8066599906
+2025-12-11 08:25:08,104 - INFO - handle_dialog() - Запрос от 1971927645: GPT-4o-mini
+2025-12-11 08:25:13,455 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-11 08:25:13,921 - INFO - handle_dialog - Ответ: 1971927645 отправлен
+2025-12-11 08:25:13,922 - INFO - Update id=451551624 is handled. Duration 5819 ms by bot id=8066599906
+2025-12-11 08:25:19,953 - INFO - Очистка истории переписки (1971927645) 
+2025-12-11 08:25:20,048 - INFO - Update id=451551625 is handled. Duration 94 ms by bot id=8066599906
+2025-12-11 20:34:22,939 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-11 20:34:22,940 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-11 20:34:34,217 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-11 21:49:59,333 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-11 21:49:59,334 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-11 21:50:10,579 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-12 09:20:30,923 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-12 09:20:30,924 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-12 09:20:42,177 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-12 09:20:42,266 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-12 09:20:42,266 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-12 09:20:53,540 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-12 09:22:04,260 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-12 09:22:04,260 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-12 09:22:15,527 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-12 09:22:45,895 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-12 09:22:45,895 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-12 09:22:57,152 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-12 09:40:34,428 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-12 09:40:34,429 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-12 09:40:45,693 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-12 15:16:08,581 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-12 15:16:08,582 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-12 15:16:19,854 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-12 15:17:50,758 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-12 15:17:50,758 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-12 15:18:02,018 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-12 15:18:02,099 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-12 15:18:02,099 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-12 15:18:13,351 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-15 05:01:10,164 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-15 05:01:10,166 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-15 05:01:21,433 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-15 07:33:01,649 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-15 07:33:01,650 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-15 07:33:12,917 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-15 07:41:17,269 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-15 07:41:17,270 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-15 07:41:28,521 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-15 07:50:27,474 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-15 07:50:27,475 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-15 07:50:38,743 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-15 07:51:20,405 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-15 07:51:20,405 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-15 07:51:31,670 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-15 07:52:42,387 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-15 07:52:42,387 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-15 07:52:53,632 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-15 08:23:49,328 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-15 08:23:49,329 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-15 08:24:00,595 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-15 08:24:41,036 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-15 08:24:41,037 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-15 08:24:52,288 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-15 08:24:52,368 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-15 08:24:52,369 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-15 08:25:03,616 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-15 09:41:50,518 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-15 09:41:50,519 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-15 09:42:01,791 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-18 00:33:56,753 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-18 00:33:56,753 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-18 00:34:08,011 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-18 00:35:28,789 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-18 00:35:28,789 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-18 00:35:40,050 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-18 00:37:41,176 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-18 00:37:41,177 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-18 00:37:52,430 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-18 00:37:52,511 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-18 00:37:52,511 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-18 00:38:03,757 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-22 01:10:53,750 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-22 01:10:53,751 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-22 01:10:54,832 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-22 01:10:54,832 - WARNING - Sleep for 1.242159 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-12-22 01:11:19,272 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-12-24 07:18:19,244 - WARNING - Received SIGTERM signal
+2025-12-24 07:18:19,247 - INFO - Polling stopped for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
+2025-12-24 07:18:19,249 - INFO - Polling stopped
+2025-12-24 07:18:19,502 - INFO - Остановка бота...
+2025-12-24 13:59:31,564 - INFO - Запуск бота...
+2025-12-24 13:59:31,845 - INFO - Start polling
+2025-12-24 13:59:31,930 - INFO - Run polling for bot @Blgroup_test1_bot id=8066599906 - 'BLgroup_test1_bot'
+2025-12-25 08:37:32,444 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-25 08:37:32,445 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-25 08:37:43,706 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-25 08:39:04,490 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-25 08:39:04,491 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-25 08:39:15,764 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-26 09:20:01,045 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-26 09:20:01,046 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-26 09:20:09,694 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connection reset by peer]
+2025-12-26 09:20:09,694 - WARNING - Sleep for 1.203887 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-12-26 09:21:19,646 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connection reset by peer]
+2025-12-26 09:21:19,646 - WARNING - Sleep for 1.568518 seconds and try again... (tryings = 2, bot id = 8066599906)
+2025-12-26 09:22:31,984 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-26 09:22:31,985 - WARNING - Sleep for 1.971199 seconds and try again... (tryings = 3, bot id = 8066599906)
+2025-12-26 09:22:43,254 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connection reset by peer]
+2025-12-26 09:22:43,254 - WARNING - Sleep for 2.671787 seconds and try again... (tryings = 4, bot id = 8066599906)
+2025-12-26 09:23:56,050 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-26 09:23:56,050 - WARNING - Sleep for 3.451865 seconds and try again... (tryings = 5, bot id = 8066599906)
+2025-12-26 09:24:02,014 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connection reset by peer]
+2025-12-26 09:24:02,014 - WARNING - Sleep for 4.517943 seconds and try again... (tryings = 6, bot id = 8066599906)
+2025-12-26 09:25:17,053 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-26 09:25:17,053 - WARNING - Sleep for 4.949200 seconds and try again... (tryings = 7, bot id = 8066599906)
+2025-12-26 09:25:54,587 - INFO - Connection established (tryings = 8, bot id = 8066599906)
+2025-12-26 09:44:08,040 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-26 09:44:08,041 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-26 09:44:27,492 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-26 09:44:27,492 - WARNING - Sleep for 1.364552 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-12-26 09:44:47,049 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-12-26 09:46:13,002 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-26 09:46:13,002 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-26 09:47:18,253 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-12-26 09:47:18,253 - WARNING - Sleep for 1.440843 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-12-26 09:48:22,917 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-12-26 09:48:22,917 - WARNING - Sleep for 1.906830 seconds and try again... (tryings = 2, bot id = 8066599906)
+2025-12-26 09:48:35,075 - INFO - Connection established (tryings = 3, bot id = 8066599906)
+2025-12-26 09:50:15,570 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-26 09:50:15,571 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-26 09:50:28,211 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-26 18:22:23,004 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-26 18:22:23,005 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-26 18:22:52,625 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 11:30:49,027 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-27 11:30:49,028 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 11:31:50,137 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-12-27 11:31:50,137 - WARNING - Sleep for 1.347319 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-12-27 11:32:03,243 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-12-27 19:34:41,958 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 19:34:41,958 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 19:34:53,226 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:08:10,685 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:08:10,686 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:08:21,957 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:12:54,415 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:12:54,416 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:13:05,663 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:14:46,598 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:14:46,598 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:14:57,862 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:15:28,212 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:15:28,213 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:15:39,459 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:15:59,702 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:15:59,702 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:16:10,954 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:19:02,470 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:19:02,471 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:19:13,728 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:19:54,160 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:19:54,160 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:20:05,422 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:20:45,854 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:20:45,854 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:20:57,101 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:29:21,476 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:29:21,477 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:29:32,730 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:29:32,811 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:29:32,811 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:29:44,055 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:36:37,548 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:36:37,549 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:36:48,812 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:38:09,590 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:38:09,590 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:38:20,859 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 21:38:20,939 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 21:38:20,939 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 21:38:32,185 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 22:48:18,214 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 22:48:18,215 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 22:48:29,460 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 22:48:29,543 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 22:48:29,543 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 22:48:40,803 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 22:49:31,319 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 22:49:31,319 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 22:49:42,578 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 22:50:23,009 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 22:50:23,010 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 22:50:34,258 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-27 22:50:44,422 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-27 22:50:44,422 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-27 22:50:55,667 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 10:22:16,028 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 10:22:16,029 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 10:22:27,290 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 10:23:17,838 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 10:23:17,838 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 10:23:29,100 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 10:24:19,617 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 10:24:19,617 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 10:24:30,871 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 11:10:17,043 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-28 11:10:17,044 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 11:11:10,034 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 11:12:32,040 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-28 11:12:32,040 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 11:13:33,160 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-12-28 11:13:33,160 - WARNING - Sleep for 1.449994 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-12-28 11:14:21,910 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-28 11:14:21,910 - WARNING - Sleep for 1.900319 seconds and try again... (tryings = 2, bot id = 8066599906)
+2025-12-28 11:14:34,929 - INFO - Connection established (tryings = 3, bot id = 8066599906)
+2025-12-28 12:05:52,760 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 12:05:52,760 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 12:06:04,023 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 12:07:14,721 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 12:07:14,722 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 12:07:25,978 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 12:33:29,311 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 12:33:29,312 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 12:33:40,575 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 12:34:31,102 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 12:34:31,103 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 12:34:42,369 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 12:55:23,138 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 12:55:23,138 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 12:55:34,402 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 13:19:46,852 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 13:19:46,853 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 13:19:58,119 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 13:20:38,554 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 13:20:38,554 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 13:20:49,805 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 13:29:04,021 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 13:29:04,022 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 13:29:15,293 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 16:31:08,605 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 16:31:08,606 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 16:31:19,867 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 16:32:10,384 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 16:32:10,384 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 16:32:21,644 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 16:33:12,172 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 16:33:12,173 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 16:33:23,421 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 22:44:00,936 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 22:44:00,936 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 22:44:12,196 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-28 22:45:02,721 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-28 22:45:02,722 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-28 22:45:13,978 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 00:09:36,688 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 00:09:36,689 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 00:09:47,951 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 00:11:59,174 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 00:11:59,174 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 00:12:10,422 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 02:19:35,345 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 02:19:35,345 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 02:19:46,610 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 02:20:37,142 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 02:20:37,143 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 02:20:48,401 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 02:21:38,945 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 02:21:38,945 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 02:21:50,196 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 02:28:03,408 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 02:28:03,409 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 02:28:14,674 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 02:29:05,193 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 02:29:05,194 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 02:29:16,453 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 02:30:06,963 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 02:30:06,963 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 02:30:18,210 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 02:30:48,552 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 02:30:48,552 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 02:30:59,798 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 03:25:07,422 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 03:25:07,423 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 03:25:18,688 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 03:42:57,732 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 03:42:57,733 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 03:43:08,994 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 03:45:20,213 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 03:45:20,213 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 03:45:31,468 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 04:42:40,223 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 04:42:40,223 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 04:42:51,494 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 04:46:43,658 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 04:46:43,658 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 04:46:54,912 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 04:54:08,528 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 04:54:08,529 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 04:54:19,796 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 04:54:40,052 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 04:54:40,052 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 04:54:51,300 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 04:54:51,380 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 04:54:51,380 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 04:55:02,630 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 06:14:12,773 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 06:14:12,774 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 06:14:24,034 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 06:16:04,982 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 06:16:04,983 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 06:16:16,230 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 07:45:30,944 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 07:45:30,944 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 07:45:42,202 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 07:47:23,133 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 07:47:23,134 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 07:47:34,387 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 07:57:09,229 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 07:57:09,230 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 07:57:20,495 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 07:58:21,105 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 07:58:21,106 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 07:58:32,365 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 07:59:12,797 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 07:59:12,798 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 07:59:24,050 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 07:59:24,130 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 07:59:24,130 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 07:59:35,376 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 08:22:04,485 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-12-29 08:22:04,486 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 08:22:52,533 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 08:28:05,149 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 08:28:05,150 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 08:28:16,408 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 08:29:06,919 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 08:29:06,919 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 08:29:18,182 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 08:30:08,703 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 08:30:08,704 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 08:30:19,951 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 08:42:36,065 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 08:42:36,066 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 08:42:47,326 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 08:43:47,930 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 08:43:47,930 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 08:43:59,192 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 08:44:49,714 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 08:44:49,715 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 08:45:00,961 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 08:46:21,720 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 08:46:21,720 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 08:46:32,977 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 08:46:53,235 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 08:46:53,236 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 08:47:04,497 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 08:58:00,152 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 08:58:00,153 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 08:58:11,399 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 08:58:11,485 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 08:58:11,485 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 08:58:22,739 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 14:55:26,061 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 14:55:26,061 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 14:55:37,313 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 14:59:03,051 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-29 14:59:03,052 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 14:59:08,345 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-12-29 14:59:08,345 - WARNING - Sleep for 1.337872 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-12-29 14:59:19,767 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-12-29 20:38:12,570 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 20:38:12,571 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 20:38:23,826 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 20:40:35,112 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-29 20:40:35,112 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 20:40:46,360 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-29 23:41:27,237 - ERROR - Failed to fetch updates - TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'GetUpdates'. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-29 23:41:27,238 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 23:41:28,321 - ERROR - Failed to fetch updates - TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'GetUpdates'. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-29 23:41:28,322 - WARNING - Sleep for 1.101108 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-12-29 23:41:30,897 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-29 23:41:30,897 - WARNING - Sleep for 1.313880 seconds and try again... (tryings = 2, bot id = 8066599906)
+2025-12-29 23:41:32,293 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-29 23:41:32,294 - WARNING - Sleep for 1.573634 seconds and try again... (tryings = 3, bot id = 8066599906)
+2025-12-29 23:41:33,949 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-29 23:41:33,949 - WARNING - Sleep for 2.137425 seconds and try again... (tryings = 4, bot id = 8066599906)
+2025-12-29 23:42:04,282 - INFO - Connection established (tryings = 5, bot id = 8066599906)
+2025-12-29 23:54:20,610 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-12-29 23:54:20,611 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-29 23:54:31,863 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-30 00:27:26,705 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-30 00:27:26,705 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-30 00:27:27,787 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-30 00:27:27,788 - WARNING - Sleep for 1.218648 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-12-30 00:27:49,563 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-12-30 07:33:04,262 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-12-30 07:33:04,262 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-30 07:33:15,524 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-30 15:46:59,038 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-30 15:46:59,038 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-30 15:47:25,170 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-30 23:13:42,996 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-30 23:13:42,997 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-30 23:14:44,775 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-30 23:19:00,020 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-30 23:19:00,020 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-30 23:19:11,270 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2025-12-30 23:23:01,324 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-30 23:23:01,325 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2025-12-30 23:23:02,407 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-30 23:23:02,407 - WARNING - Sleep for 1.452727 seconds and try again... (tryings = 1, bot id = 8066599906)
+2025-12-30 23:23:25,061 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2025-12-31 15:12:04,420 - INFO - handle_dialog() - Запрос от 5659195074: Кто такой Чебурашка
+2025-12-31 15:12:09,180 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-31 15:12:09,821 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2025-12-31 15:12:09,822 - INFO - Update id=451551626 is handled. Duration 5405 ms by bot id=8066599906
+2025-12-31 15:12:42,753 - INFO - Очистка истории переписки (5659195074) 
+2025-12-31 15:12:43,013 - INFO - Update id=451551627 is handled. Duration 260 ms by bot id=8066599906
+2026-01-01 13:49:42,675 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-01-01 13:49:42,676 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-01 13:49:55,312 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-02 00:15:28,038 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-01-02 00:15:28,038 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-02 00:16:40,010 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-01-02 00:16:40,012 - WARNING - Sleep for 1.298115 seconds and try again... (tryings = 1, bot id = 8066599906)
+2026-01-02 00:16:59,945 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2026-01-03 21:27:15,890 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-01-03 21:27:15,892 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-03 21:27:27,145 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-03 21:27:27,146 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-01-03 21:27:27,147 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-03 21:27:38,393 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-05 13:49:33,455 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-01-05 13:49:33,456 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-05 13:49:44,704 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-06 06:03:39,025 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-01-06 06:03:39,026 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-06 06:03:50,280 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-07 11:23:02,183 - ERROR - Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2026-01-07 11:23:02,184 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-07 11:23:14,426 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-07 11:52:22,032 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-01-07 11:52:22,033 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-07 11:52:33,547 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-07 12:51:20,039 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-01-07 12:51:20,039 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-07 12:52:22,203 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2026-01-07 12:52:22,203 - WARNING - Sleep for 1.219359 seconds and try again... (tryings = 1, bot id = 8066599906)
+2026-01-07 12:52:38,300 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2026-01-07 13:02:39,020 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-01-07 13:02:39,020 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-07 13:03:26,938 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-07 13:07:14,013 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-01-07 13:07:14,014 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-07 13:07:16,024 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-01-07 13:07:16,024 - WARNING - Sleep for 1.178210 seconds and try again... (tryings = 1, bot id = 8066599906)
+2026-01-07 13:07:40,784 - INFO - Connection established (tryings = 2, bot id = 8066599906)
+2026-01-08 23:19:16,652 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2026-01-08 23:19:16,653 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-08 23:19:27,918 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-08 23:20:18,461 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2026-01-08 23:20:18,462 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-08 23:20:29,715 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-08 23:21:50,476 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2026-01-08 23:21:50,476 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-08 23:22:01,727 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-12 18:06:39,114 - INFO - Очистка истории переписки (5659195074) 
+2026-01-12 18:06:39,411 - INFO - Update id=451551628 is handled. Duration 297 ms by bot id=8066599906
+2026-01-12 18:06:50,602 - INFO - handle_dialog() - Запрос от 5659195074: Кто такой енот
+2026-01-12 18:07:00,066 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-12 18:07:00,455 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2026-01-12 18:07:00,456 - INFO - Update id=451551629 is handled. Duration 9854 ms by bot id=8066599906
+2026-01-13 05:56:27,287 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-01-13 05:56:27,288 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-13 05:56:38,531 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-14 11:24:31,328 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2026-01-14 11:24:31,329 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8066599906)
+2026-01-14 11:24:42,579 - INFO - Connection established (tryings = 1, bot id = 8066599906)
+2026-01-17 20:51:33,257 - INFO - Очистка истории переписки (5659195074) 
+2026-01-17 20:51:33,578 - INFO - Update id=451551630 is handled. Duration 325 ms by bot id=8066599906
+2026-01-17 20:51:45,778 - INFO - handle_dialog() - Запрос от 5659195074: Что такое рекурсия
+2026-01-17 20:51:51,693 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-17 20:51:52,115 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2026-01-17 20:51:52,116 - INFO - Update id=451551631 is handled. Duration 6339 ms by bot id=8066599906
+2026-01-17 21:46:00,073 - INFO - Очистка истории переписки (5659195074) 
+2026-01-17 21:46:00,339 - INFO - Update id=451551632 is handled. Duration 267 ms by bot id=8066599906
+2026-01-17 21:46:04,956 - INFO - Очистка истории переписки (5659195074) 
+2026-01-17 21:46:05,057 - INFO - Update id=451551633 is handled. Duration 101 ms by bot id=8066599906
+2026-01-17 21:46:24,066 - INFO - handle_dialog() - Запрос от 5659195074: Стоп
+2026-01-17 21:46:26,878 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-17 21:46:27,257 - INFO - handle_dialog - Ответ: 5659195074 отправлен
+2026-01-17 21:46:27,258 - INFO - Update id=451551634 is handled. Duration 3193 ms by bot id=8066599906
+2026-01-17 21:46:32,234 - INFO - Очистка истории переписки (5659195074) 
+2026-01-17 21:46:32,324 - INFO - Update id=451551635 is handled. Duration 90 ms by bot id=8066599906
